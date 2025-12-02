@@ -92,7 +92,7 @@ app.layout = dbc.Container([
         ]), style=card_style_kpi), width=3),
     ], className="mb-4"),
 
-    # ── Row 2: 2 Bar Charts ──
+    # ── Row 2: 3 Bar Charts ──
     dbc.Row([
         # Chart 1: Profit by Sub-Category
         dbc.Col(dbc.Card([
