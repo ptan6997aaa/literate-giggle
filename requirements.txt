@@ -1,0 +1,7 @@
+dash 
+pandas 
+plotly 
+dash-bootstrap-components 
+openpyxl
+dash-vega-components 
+altair 
