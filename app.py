@@ -106,7 +106,7 @@ app.layout = dbc.Container([
             dbc.CardBody(dcc.Graph(id="chart-state", config={'displayModeBar': False}, style={'height': '350px'}))
         ], className="shadow-sm border-0"), width=4),
 
-        # Chart 3: Sales by State
+        # Chart 3: Sales by Customers  
         dbc.Col(dbc.Card([
             dbc.CardHeader("Top 6 Customers by Sales", className="fw-bold bg-light"),
             dbc.CardBody(dcc.Graph(id="chart-customer", config={'displayModeBar': False}, style={'height': '350px'}))
